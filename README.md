@@ -4,9 +4,14 @@ WORK IN PROGRESS
 
 ## About
 
+![](gui.png)
+![](gui2.png)
+![](gui3.png)
 ![](gui.gif)
 
+## Examples
 
+* "show asteroid orbits"
 
 ## Category
 **Information**
