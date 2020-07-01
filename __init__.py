@@ -9,8 +9,8 @@ class AsteroidsSkill(MycroftSkill):
     @resting_screen_handler("Asteroids")
     def idle(self, message):
         self.gui.clear()
-        self.gui.show_url(join(dirname(__file__), "index.html"),
-                          override_idle=True)
+        self.gui.show_url(join(dirname(__file__), "ui", "index.html"),
+                          override_idle=200)
 
     @intent_file_handler("asteroids.intent")
     def handle_asteroids_intent(self, message):
