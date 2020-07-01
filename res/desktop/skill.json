@@ -1,0 +1,21 @@
+{
+  "name": "Asteroid Tracker",
+  "skillname": "skill-asteroid-tracker",
+  "authorname": "JarbasSkills",
+  "foldername": "",
+  "url": "https://github.com/JarbasSkills/skill-asteroid-tracker",
+  "branch": "master",
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "platforms": [
+    "arm",
+    "arm64",
+    "i386",
+    "x86_64",
+    "ia64"
+  ],
+  "examples": [
+    "show asteroid orbits"
+  ]
+}
