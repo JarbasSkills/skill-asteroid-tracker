@@ -445,13 +445,16 @@ function setupMove() {
 
 function pickPosition() {
     // pick a number between +-90 normal distribution
-    let lat = (randomNumber(45) + randomNumber(45)) - 90;
+    //let lat = (randomNumber(45) + randomNumber(45)) - 90;
 
     // pick a number between +-180 liner distribution
-    let lon = randomNumber(360) - 180;
-
+    //let lon = randomNumber(360) - 180;
+    let lon = randomNumber(0, 360)
+    let lat = randomNumber(0, 360)
     // convert these two angles to a point on a sphere somewhere near the edge of the solar system.
-    const R = 1000;
+    //const R = 5000; // kuiper belt
+    //const R = 1000; // asteroid belt
+    let R = randomNumber(0, 5000)
     return {
         x: R * Math.cos(lat) * Math.cos(lon),
         y: R * Math.cos(lat) * Math.sin(lon),
@@ -459,8 +462,8 @@ function pickPosition() {
     };
 }
 
-function randomNumber(max) {
-    return Math.floor(Math.random() * max)
+function randomNumber(min, max) {
+    return Math.floor(Math.random() * max) + min
 }
 
 function mapToColour(map, x, y, z) {

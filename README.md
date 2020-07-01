@@ -1,8 +1,15 @@
-# OrbViewer
+# <img src='./icon.png' width='50' height='50' style='vertical-align:bottom'/> Asteroid Tracker
 
-This is the repo housing [OrbViewer](https://parsecsreach.com/orbviwer)
+WORK IN PROGRESS
 
-The canonical copy of this repo lives as a tool in [OrbCalc](https://github.com/wselwood/orbcalc)
+## About
 
-This part is the static assets that should be enough to host the basic part of the site.
-In the directory above there is a go tool that will generate the required datafiles and host the site locally when you want to test things.
+![](gui.gif)
+
+
+
+## Category
+**Information**
+
+## Tags
+#nasa #space #sun
